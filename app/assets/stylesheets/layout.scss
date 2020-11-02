@@ -1,0 +1,17 @@
+.l-Navbar
+{
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .l-Navbar-Items
+    {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}

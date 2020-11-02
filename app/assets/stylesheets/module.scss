@@ -1,0 +1,25 @@
+.navbar
+{
+    border: 1px solid #ccc;
+    background-color: #FCFBFB;
+    
+    .navbar--Item
+    {
+        height: 30px;
+        width: 90px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        background-color: #F6F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        border-radius: 15%;
+        text-transform: uppercase;
+        
+        &:hover
+        {
+            background-color: #ccc;
+        }
+    }
+}
