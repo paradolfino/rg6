@@ -18,10 +18,13 @@
 @import "layout.scss";
 @import "module.scss";
 @import "state.scss";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 /* base SMACSS */
 body {
     font-family: Roboto, Sans;
+    margin: 0;
 }
 
 

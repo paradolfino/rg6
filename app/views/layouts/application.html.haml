@@ -9,10 +9,23 @@
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   %body
     .l-Navbar.navbar
+      .l-Navbar-Logo.navbar--Logo
+        Hello Kelly
       .l-Navbar-Items
-        .navbar--Item Home
-        .navbar--Item About
-        .navbar--Item Courses
+        .navbar--Item 
+          %i.fas.fa-home
+          &nbsp;
+          Home
+        .navbar--Item
+          %i.fas.fa-info
+          &nbsp;
+          About
+        .navbar--Item 
+          %i.fab.fa-buffer
+          &nbsp;
+          Courses
+      .l-Navbar-Login.navbar--Login
+        LOGIN
     = yield
 
 /    = stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'

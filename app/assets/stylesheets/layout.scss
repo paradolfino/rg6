@@ -3,14 +3,34 @@
     height: 50px;
     width: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 25px;
     
     .l-Navbar-Items
     {
         display: flex;
-        width: 300px;
+        height: 100%;
+        width: 320px;
         justify-content: space-between;
+        align-items: center;
+    }
+    
+    .l-Navbar-Logo
+    {
+        height: 100%;
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .l-Navbar-Login
+    {
+        height: 100%;
+        width: 100px;
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
     

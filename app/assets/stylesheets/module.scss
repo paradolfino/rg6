@@ -1,25 +1,46 @@
 .navbar
 {
     border: 1px solid #ccc;
-    background-color: #FCFBFB;
+    background-color: #039dfc;
+    color: #fff;
     
     .navbar--Item
     {
-        height: 30px;
-        width: 90px;
-        border: 1px solid #ccc;
+        height: 100%;
+        width: 110px;
         cursor: pointer;
-        background-color: #F6F5F5;
         display: flex;
         justify-content: center;
         align-items: center;
         font-weight: bold;
-        border-radius: 15%;
         text-transform: uppercase;
         
         &:hover
         {
-            background-color: #ccc;
+            background-color: #03cafc;
+        }
+    }
+    
+    .navbar--Logo
+    {
+        background-color: #03cafc;
+        color: #fff;
+        font-weight: bold;
+        font-size: 30px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    
+    .navbar--Login
+    {
+        background-color: #fcad03;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        
+        &:hover
+        {
+            background-color: #ffbd2e;
         }
     }
 }
