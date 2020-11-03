@@ -12,7 +12,7 @@
       .l-Navbar-Logo.navbar--Logo
         Hello Kelly
       .l-Navbar-Items
-        .navbar--Item 
+        = link_to root_path, class: 'navbar--Item' do
           %i.fas.fa-home
           &nbsp;
           Home
@@ -20,7 +20,7 @@
           %i.fas.fa-info
           &nbsp;
           About
-        .navbar--Item 
+        = link_to courses_path, class: 'navbar--Item' do
           %i.fab.fa-buffer
           &nbsp;
           Courses

@@ -56,3 +56,4 @@ gem "haml-rails", "~> 2.0"
 gem 'jquery-rails'
 gem 'mini_racer'
 gem 'font-awesome-sass', '~> 5.15.1'
+gem 'simple_form'

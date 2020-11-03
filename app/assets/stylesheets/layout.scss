@@ -1,37 +1,49 @@
 .l-Navbar
 {
     height: 50px;
-    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 25px;
+}
+
+.l-Navbar-Items
+{
+    display: flex;
+    height: 100%;
+    width: 320px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.l-Navbar-Logo
+{
+    height: 100%;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-Navbar-Login
+{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 767.98px) 
+{
+    .l-Navbar
+    {
+        padding: 0;
+    }
     
     .l-Navbar-Items
     {
-        display: flex;
-        height: 100%;
-        width: 320px;
-        justify-content: space-between;
-        align-items: center;
+        display: none;
+        width: 100%;
     }
-    
-    .l-Navbar-Logo
-    {
-        height: 100%;
-        width: 220px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .l-Navbar-Login
-    {
-        height: 100%;
-        width: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
 }
