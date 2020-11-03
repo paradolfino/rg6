@@ -1,22 +1,25 @@
-%h1 Listing courses
+%h1 Available Courses
 
-%table
-  %thead
-    %tr
-      %th Title
-      %th Description
-      %th
-      %th
-      %th
+%table.l-Grid.grid
+  %thead.grid--Header
+    %tr.grid--Row
+      %th.grid--Head Title
+      %th.grid--Head Description
+      %th.grid--Head
+      %th.grid--Head
+      %th.grid--Head
 
-  %tbody
+  %tbody.grid--Body
     - @courses.each do |course|
-      %tr
-        %td= course.title
-        %td= course.description
-        %td= link_to 'Show', course
-        %td= link_to 'Edit', edit_course_path(course)
-        %td= link_to 'Destroy', course, method: :delete, data: { confirm: 'Are you sure?' }
+      %tr.grid--Row
+        %td.grid--Data= course.title
+        %td.grid--Data= course.description
+        %td.grid--Data
+          .grid--Action.fas.fa-binoculars= link_to '', course
+        %td.grid--Data
+          .grid--Action.fas.fa-pen= link_to '', edit_course_path(course)
+        %td.grid--Data
+          .grid--Action.fas.fa-trash= link_to '', course, method: :delete, data: { confirm: 'Are you sure?' }
 
 %br
 

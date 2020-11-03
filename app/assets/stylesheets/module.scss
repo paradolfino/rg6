@@ -7,7 +7,7 @@
     .navbar--Item
     {
         height: 100%;
-        width: 110px;
+        width: 250px;
         cursor: pointer;
         display: flex;
         justify-content: center;
@@ -45,4 +45,76 @@
             background-color: #ffbd2e;
         }
     }
+}
+
+.grid
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    
+    .grid--Header
+    {
+        
+    }
+    
+    .grid--Row
+    {
+        
+    }
+    
+    .grid--Head
+    {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #039dfc;
+        color: white;
+    }
+    
+    .grid--Body
+    {
+        
+    }
+    
+    .grid--Data
+    {
+        
+    }
+    
+    .grid--Data, .grid--Head
+    {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    
+    .grid--Row:nth-child(even)
+    {
+        background-color: #f2f2f2;
+    }
+    
+    .grid--Row:hover 
+    {
+        background-color: #ddd;
+    }
+    
+    .grid--Action
+    {
+        background-color: #fcad03;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        color: #fff;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15%;
+        
+        &:hover
+        {
+            background-color: #ffbd2e;
+        }
+    }
+    
 }

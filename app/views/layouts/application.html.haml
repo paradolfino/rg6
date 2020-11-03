@@ -24,8 +24,14 @@
           %i.fab.fa-buffer
           &nbsp;
           Courses
-      .l-Navbar-Login.navbar--Login
-        LOGIN
-    = yield
+        .navbar--Item
+          %i.fas.fa-comments
+          &nbsp;
+          Community
+        .navbar--Item.navbar--Login
+          LOGIN
+      
+    .l-MainPage
+      = yield
 
 /    = stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
