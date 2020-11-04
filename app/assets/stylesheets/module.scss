@@ -1,6 +1,5 @@
 .navbar
 {
-    border: 1px solid #ccc;
     background-color: #039dfc;
     color: #fff;
     
@@ -31,6 +30,7 @@
         font-size: 30px;
         cursor: pointer;
         text-transform: uppercase;
+        text-decoration: none;
     }
     
     .navbar--Login
@@ -99,22 +99,57 @@
     
     .grid--Action
     {
-        background-color: #fcad03;
-        font-weight: bold;
-        font-size: 16px;
-        cursor: pointer;
-        color: #fff;
         width: 25px;
         height: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15%;
-        
-        &:hover
-        {
-            background-color: #ffbd2e;
-        }
     }
     
+}
+
+.cta
+{
+    height: 100px;
+    width: 100%;
+    background-color: #f9f9fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    .cta--Text
+    {
+        padding: 15px;
+        font-size: 22px;
+        color: #344a6f;
+    }
+    
+    .cta--Button
+    {
+        width: 100px;
+        height: 40px;
+    }
+}
+/*shared*/
+.btn--Primary
+{
+    background-color: #fcad03;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    &:hover
+    {
+        background-color: #ffbd2e;
+    }
+    
+    &:visited
+    {
+        color: #fff;
+    }
 }

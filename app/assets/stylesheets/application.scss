@@ -20,11 +20,13 @@
 @import "state.scss";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import "./actiontext.scss";
 
 /* base SMACSS */
 body {
     font-family: Roboto, Sans;
     margin: 0;
+    color: #344a6f;
 }
 
 
